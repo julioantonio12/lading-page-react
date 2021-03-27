@@ -68,10 +68,10 @@ export default function LandingPage(){
 							</div>
 						</div>
 
-						<div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
-							<div class="">
+						<div className="col-lg-4 text-center d-flex align-items-center justify-content-center">
+							<div className="">
 								<h2>La Bobina de <strong>Tesla</strong></h2>
-								<p class="lead mb-5"><br/>
+								<p className="lead mb-5"><br/>
 									Phone: +1 234 56789012
 								</p>
 							</div>
@@ -83,19 +83,19 @@ export default function LandingPage(){
 						<div className="col-8">
 							<br/><br/><strong>Contáctanos:</strong><br/><br/>
 							<div className="form-group">
-								<label for="inputName">Nombre</label>
+								<label htmlFor="">Nombre</label>
 								<input type="text" id="inputName" className="form-control"/>
 							</div>
 							<div className="form-group">
-								<label for="inputEmail">E-Mail</label>
+								<label htmlFor="">E-Mail</label>
 								<input type="email" id="inputEmail" className="form-control"/>
 							</div>
 							<div className="form-group">
-								<label for="inputSubject">Asunto</label>
+								<label htmlFor="">Asunto</label>
 								<input type="text" id="inputSubject" className="form-control"/>
 							</div>
 							<div className="form-group">
-								<label for="inputMessage">Mensaje</label>
+								<label htmlFor="">Mensaje</label>
 							<	textarea id="inputMessage" className="form-control" rows="4"></textarea>
 							</div>
 								<div className="form-group">
