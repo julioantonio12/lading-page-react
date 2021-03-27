@@ -5,7 +5,7 @@ import Sidebar from './components/sidebar/Sidebar';
 import Footer from "./components/footer/Footer";
 
 //Dynamic components
-import Administrators from './components/contents/administrators/Administrator'
+import LandingPage from './components/contents/landing/LandingPage'
 export default function App() {
   return (
     <div className="sidebar-mini">
@@ -14,7 +14,7 @@ export default function App() {
         <Sidebar/>
         <BrowserRouter>
           <Switch>
-            <Route exact path="/" component={Administrators}/>
+            <Route exact path="/" component={LandingPage}/>
           </Switch>
         </BrowserRouter>
         <Footer/>

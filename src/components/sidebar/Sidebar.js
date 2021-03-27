@@ -43,7 +43,7 @@ export default function Sidebar() {
                     <li className="nav-item">
                         <a href="/" className="nav-link">
                             <i className="nav-icon fas fa-user-lock"></i>
-                            <p>Administradores</p>
+                            <p>Landing page</p>
                         </a>
                     </li>
 
